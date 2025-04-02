@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Assets/Bgc.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header  */
+
+.logo img {
+    height: 80px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-items ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    line-height: 22px;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.header-items li {
+    padding: 0 130px 0 0;
+    display: flex;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #f94307;
+}
+
+a:hover {
+    font-size: 30px;
+    font-weight: 800;
+    color: #f6057d;
+}
+
+/* Hero Section  */
+
+.hero-section h1 {
+    text-align: center;
+    font-style: none;
+    margin: 20vh;
+    padding: 0 80px 60px 40px;
+    font-size: 90px;
+    font-weight: 900;
+    color: #f94307;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section h3 {
+    font-size: 40px;
+    font-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section p {
+    font-style: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}

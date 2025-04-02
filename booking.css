@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Assets/Booking.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Header Section  */
+
+.header {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 90px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.header-items ul {
+    padding: 0 120px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.header-items li {
+    list-style-type: none;
+    font-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
+a:hover {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e90c55;
+}
+
+/* Hero Sectoin  */
+
+.hero-section {
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-items ul{
+    margin: 30vh;
+    cursor: pointer;
+    list-style-type: none;
+} 
+
+.hero-section-items li {
+    /* padding: 0 p 0 150px; */
+    font-size: 40px;
+    font-style: none;
+    font-weight: 900;
+}
+
+.hero-section-items ul li a {
+    padding: 0 0 0 40%;
+    color: #021423;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero-section-items ul li a:hover{
+    color: #f90521;
+    font-weight: 900;
+    font-size: 40px;
+}
